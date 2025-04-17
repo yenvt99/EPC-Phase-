@@ -1,0 +1,862 @@
+{
+  "id": "1",
+  "name": "VIP199",
+  "description": "Gói HVC VIP199",
+  "groups": [
+    {
+      "id": "5350",
+      "name": "Giá",
+      "groupType": "Price",
+      "description": "Mô tả các chu kỳ và giá theo từng chu kỳ",
+      "specifications": [
+        {
+          "id": "53501",
+          "name": "Chu kỳ đăng ký",
+          "shortDescription": "1T/ 3T/ 6T/ 12T",
+          "description": "1T/ 3T/ 6T/ 12T",
+          "attribute": [
+            {
+              "id": "535011",
+              "code": "registration_cycle_1",
+              "title": "Chu kỳ đăng ký 1",
+              "dataType": "String",
+              "value": "1T"
+            },
+            {
+              "id": "535012",
+              "code": "registration_cycle_2",
+              "title": "Chu kỳ đăng ký 2",
+              "dataType": "String",
+              "value": "3T"
+            },
+            {
+              "id": "535013",
+              "code": "registration_cycle_3",
+              "title": "Chu kỳ đăng ký 3",
+              "dataType": "String",
+              "value": "6T"
+            },
+            {
+              "id": "535014",
+              "code": "registration_cycle_4",
+              "title": "Chu kỳ đăng ký 4",
+              "dataType": "String",
+              "value": "12T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+        {
+          "id": "53502",
+          "name": "Chu kỳ gia hạn",
+          "shortDescription": "1T/ 3T/ 7T/ 14T",
+          "description": "1T/ 3T/ 7T/ 14T",
+          "attribute": [
+            {
+              "id": "535021",
+              "code": "renew_cycle_1",
+              "title": "Chu kỳ gia hạn 1",
+              "dataType": "String",
+              "value": "1T"
+            },
+            {
+              "id": "535022",
+              "code": "renew_cycle_2",
+              "title": "Chu kỳ gia hạn 2",
+              "dataType": "String",
+              "value": "3T"
+            },
+            {
+              "id": "535023",
+              "code": "renew_cycle_3",
+              "title": "Chu kỳ gia hạn 3",
+              "dataType": "String",
+              "value": "7T"
+            },
+            {
+              "id": "535024",
+              "code": "renew_cycle_4",
+              "title": "Chu kỳ gia hạn 4",
+              "dataType": "String",
+              "value": "14T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+        {
+          "id": "53503",
+          "name": "Giá gói theo chu kỳ",
+          "shortDescription": "199000/ 597000/ 1194000/ 2388000",
+          "description": "199000/ 597000/ 1194000/ 2388000",
+          "attribute": [
+            {
+              "id": "535031",
+              "code": "cycle_price_1",
+              "title": "Giá chu kỳ 1",
+              "dataType": "number",
+              "value": "199000"
+            },
+            {
+              "id": "535032",
+              "code": "cycle_price_2",
+              "title": "Giá chu kỳ 2",
+              "dataType": "number",
+              "value": "597000"
+            },
+            {
+              "id": "535033",
+              "code": "cycle_price_3",
+              "title": "Giá chu kỳ 3",
+              "dataType": "number",
+              "value": "1194000"
+            },
+            {
+              "id": "535034",
+              "code": "cycle_price_4",
+              "title": "Giá chu kỳ 4",
+              "dataType": "number",
+              "value": "2388000"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        }
+      ],
+      "@type": "ProposalGroup",
+      "@baseType": "ProposalGroup"
+    },
+	{
+	  "id": "5351",
+	  "name": "Ưu đãi",
+	  "groupType": "Interest",
+	  "description": "Ưu đãi",
+	  "specifications": [
+		{
+		  "id": "53511",
+		  "name": "Phút nội mạng VNP",
+		  "shortDescription": "2000",
+		  "description": "2000",
+		  "attribute": [
+			{
+			  "id": "535111",
+			  "code": "volume",
+			  "title": "Số phút",
+			  "dataType": "Number",
+			  "value": "2000"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53512",
+		  "name": "Phút liên mạng trong nước",
+		  "shortDescription": "250",
+		  "description": "250",
+		  "attribute": [
+			{
+			  "id": "535121",
+			  "code": "volume",
+			  "title": "Số phút",
+			  "dataType": "Number",
+			  "value": "250"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53513",
+		  "name": "Data",
+		  "shortDescription": "8GB/ Ngày",
+		  "description": "8GB/ Ngày",
+		  "attribute": [
+			{
+			  "id": "535131",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "8"
+			},
+			{
+			  "id": "535132",
+			  "code": "unit",
+			  "title": "Đơn vị data",
+			  "dataType": "String",
+			  "value": "GB"
+			},
+			{
+			  "id": "535133",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Ngày"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53514",
+		  "name": "Data IP",
+		  "shortDescription": "Free data truy cập ứng dụng Zalo, Facebook, Tiktok, Youtube, Whatsapp",
+		  "description": "Free data truy cập ứng dụng Zalo, Facebook, Tiktok, Youtube, Whatsapp",
+		  "attribute": [
+			{
+			  "id": "535141",
+			  "code": "ip",
+			  "title": "Ứng dụng",
+			  "dataType": "String",
+			  "value": ["Zalo", "Facebook", "Tiktok", "Youtube", "Whatsapp"]
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53515",
+		  "name": "Dịch vụ Add-on",
+		  "shortDescription": "MyTV (VTVCab + SPOTV)",
+		  "description": "MyTV (VTVCab + SPOTV)",
+		  "attribute": [
+			{
+			  "id": "535151",
+			  "code": "service",
+			  "title": "Dịch vụ",
+			  "dataType": "String",
+			  "value": "MyTV (VTVCab + SPOTV)"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53516",
+		  "name": "Dịch vụ khác",
+		  "shortDescription": "Volte, Volwifi",
+		  "description": "Volte, Volwifi",
+		  "attribute": [
+			{
+			  "id": "535161",
+			  "code": "other_service",
+			  "title": "Dịch vụ khác",
+			  "dataType": "String",
+			  "value": "Volte, Volwifi"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	},
+	{
+	  "id": "5352",
+	  "name": "Tính năng chia sẻ Data",
+	  "groupType": "Interest",
+	  "description": "Tính năng chia sẻ Data",
+	  "specifications": [
+		{
+		  "id": "53521",
+		  "name": "Mô tả tính năng",
+		  "shortDescription": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên theo từng gói; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm 15K/1TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB",
+		  "description": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên theo từng gói; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm 15K/1TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB",
+		  "attribute": [
+			{
+			  "id": "535211",
+			  "code": "function_description",
+			  "title": "Mô tả tính năng",
+			  "dataType": "String",
+			  "value": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên theo từng gói; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm 15K/1TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53522",
+		  "name": "Số lượng TB thành viên",
+		  "shortDescription": "2",
+		  "description": "2",
+		  "attribute": [
+			{
+			  "id": "535221",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "2"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53523",
+		  "name": "Hạn mức chia sẻ",
+		  "shortDescription": "1GB/ Ngày",
+		  "description": "1GB/ Ngày",
+		  "attribute": [
+			{
+			  "id": "535231",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "1"
+			},
+			{
+			  "id": "535232",
+			  "code": "unit",
+			  "title": "Đơn vị data",
+			  "dataType": "String",
+			  "value": "GB"
+			},
+			{
+			  "id": "535233",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Ngày"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Đăng ký thêm thành viên: TTV_VIPxx_Số thuê bao thành viên",
+		  "description": "Đăng ký thêm thành viên: TTV_VIPxx_Số thuê bao thành viên",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Đăng ký thêm thành viên"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "TTV_VIPxx_Số thuê bao thành viên"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Thay đổi thành viên: TDTV_VIPxx_Số TV cũ_ Số TV mới",
+		  "description": "Thay đổi thành viên: TDTV_VIPxx_Số TV cũ_ Số TV mới",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Thay đổi thành viên"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "TDTV_VIPxx_Số TV cũ_ Số TV mới"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Hủy thành viên: XTV_VIPxx_Số thuê bao thành viên",
+		  "description": "Hủy thành viên: XTV_VIPxx_Số thuê bao thành viên",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Hủy thành viên"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "XTV_VIPxx_Số thuê bao thành viên"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Tra cứu thành viên: TRACUUTV_VIPxx",
+		  "description": "Tra cứu thành viên: TRACUUTV_VIPxx",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Tra cứu thành viên"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "TRACUUTV_VIPxx"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Thành viên yêu cầu hủy nhóm chia sẻ: XTV_VIPxx",
+		  "description": "Thành viên yêu cầu hủy nhóm chia sẻ: XTV_VIPxx",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Thành viên yêu cầu hủy nhóm chia sẻ"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "XTV_VIPxx"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	},
+	{
+	  "id": "5353",
+	  "name": "Đối tượng đăng ký",
+	  "groupType": "Qualification",
+	  "description": "Đối tượng đăng ký",
+	  "specifications": [
+		{
+		  "id": "53531",
+		  "name": "Thuê bao trả trước PTM",
+		  "shortDescription": "Thuê bao phát triển mới trong vòng 30 ngày·",
+		  "description": "Thuê bao phát triển mới trong vòng 30 ngày·",
+		  "attribute": [
+			{
+			  "id": "535311",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "String",
+			  "value": "30"
+			},
+			{
+			  "id": "535312",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Ngày"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53532",
+		  "name": "Thuê bao chuyển mạng giữ số MNP",
+		  "shortDescription": "Thuê bao chuyển mạng giữ số MNP trong vòng 30 ngày",
+		  "description": "Thuê bao chuyển mạng giữ số MNP trong vòng 30 ngày",
+		  "attribute": [
+			{
+			  "id": "535321",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "30"
+			},
+			{
+			  "id": "535322",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Ngày"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53533",
+		  "name": "Thuê bao trả trước hiện hữu",
+		  "shortDescription": "Thuê bao trả trước hiện hữu (Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.",
+		  "description": "Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng liên kề đều <= 199000 đồng.\nGhi chú: Xét TKC 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
+		  "attribute": [
+			{
+			  "id": "535331",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "3"
+			},
+			{
+			  "id": "535332",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Tháng"
+			},
+			{
+			  "id": "535333",
+			  "code": "operator",
+			  "title": "Toán tử",
+			  "dataType": "String",
+			  "value": "<="
+			},
+			{
+			  "id": "535334",
+			  "code": "amount",
+			  "title": "Số tiền",
+			  "dataType": "Number",
+			  "value": "199000"
+			},
+			{
+			  "id": "535335",
+			  "code": "currency_unit",
+			  "title": "Đơn vị tiền tệ",
+			  "dataType": "String",
+			  "value": "Đồng"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53534",
+		  "name": "Thuê bao trả sau hiện hữu chuyển sang trả trước",
+		  "shortDescription": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân bình quân 3 tháng·liên kề đều <= 199000 đồng.",
+		  "description": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân bình quân 3 tháng·liên kề đều <= 199000 đồng",
+		  "attribute": [
+			{
+			  "id": "535341",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "3"
+			},
+			{
+			  "id": "535342",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Tháng"
+			},
+			{
+			  "id": "535343",
+			  "code": "operator",
+			  "title": "Toán tử",
+			  "dataType": "String",
+			  "value": "<="
+			},
+			{
+			  "id": "535344",
+			  "code": "amount",
+			  "title": "Số tiền",
+			  "dataType": "Number",
+			  "value": "199000"
+			},
+			{
+			  "id": "535345",
+			  "code": "currency_unit",
+			  "title": "Đơn vị tiền tệ",
+			  "dataType": "String",
+			  "value": "Đồng"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53535",
+		  "name": "Thuê bao trả sau PTM",
+		  "shortDescription": "Thuê bao trả sau PTM gồm Thuê bao trả sau hòa mạng mới, Thuê bao MNP PI trả sau trong tháng hòa mạng, Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng.",
+		  "description": "Thuê bao trả sau PTM gồm Thuê bao trả sau hòa mạng mới, Thuê bao MNP PI trả sau trong tháng hòa mạng, Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng.",
+		  "attribute": [
+			{
+			  "id": "535351",
+			  "code": "condition",
+			  "title": "Điều kiện",
+			  "dataType": "String",
+			  "value": ["Thuê bao trả sau hòa mạng mới", "Thuê bao MNP PI trả sau trong tháng hòa mạng", "Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng"]
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53537",
+		  "name": "Thuê bao trả trước hiện hữu chuyển sang trả sau",
+		  "shortDescription": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.",
+		  "description": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.\nGhi chú: Xét doanh thu 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
+		  "attribute": [
+			{
+			  "id": "535371",
+			  "code": "quantity",
+			  "title": "Số lượng",
+			  "dataType": "Number",
+			  "value": "3"
+			},
+			{
+			  "id": "535372",
+			  "code": "cycle",
+			  "title": "Chu kỳ",
+			  "dataType": "String",
+			  "value": "Tháng"
+			},
+			{
+			  "id": "535373",
+			  "code": "operator",
+			  "title": "Toán tử",
+			  "dataType": "String",
+			  "value": "<="
+			},
+			{
+			  "id": "535374",
+			  "code": "amount",
+			  "title": "Số tiền",
+			  "dataType": "Number",
+			  "value": "199000"
+			},
+			{
+			  "id": "535375",
+			  "code": "currency_unit",
+			  "title": "Đơn vị tiền tệ",
+			  "dataType": "String",
+			  "value": "Đồng"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	},
+	{
+	  "id": "5355",
+	  "name": "Cú pháp với gói main",
+	  "groupType": "Qualification",
+	  "description": "Cú pháp với gói main",
+	  "specifications": [
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Đăng ký: DK <dấu cách><mã gói main> gửi 900 hoặc <mã gói main>",
+		  "description": "Đăng ký: DK <dấu cách><mã gói main> gửi 900 hoặc <mã gói main>",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Đăng ký"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "DK <dấu cách><mã gói main> gửi 900 hoặc <mã gói main>"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Hủy: HUY <mã gói main>",
+		  "description": "Hủy: HUY <mã gói main>",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Hủy"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "HUY <mã gói main>"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Tra cứu: Trả trước:  TRACUU <Tên gói> gửi 900, DATA gửi 888 Trả sau:  ALOTS gửi 900 , DATA gửi 888",
+		  "description": "Tra cứu: Trả trước:  TRACUU <Tên gói> gửi 900, DATA gửi 888\nTrả sau:  ALOTS gửi 900 , DATA gửi 888",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Tra cứu"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "Trả trước:  TRACUU <Tên gói> gửi 900, DATA gửi 888\nTrả sau:  ALOTS gửi 900 , DATA gửi 888"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	},
+	{
+	  "id": "5356",
+	  "name": "Cú pháp với gói Add-on",
+	  "groupType": "Qualification",
+	  "description": "Cú pháp với gói Add-on",
+	  "specifications": [
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Đăng ký: DK <dấu cách><mã gói add on> gửi 888 hoặc <mã gói add on> gửi 888 HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "description": "Đăng ký: DK <dấu cách><mã gói add on> gửi 888 hoặc <mã gói add on> gửi 888 HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Đăng ký"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "DK <dấu cách><mã gói add on> gửi 888 hoặc <mã gói add on> gửi 888 HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53524",
+		  "name": "Cú pháp",
+		  "shortDescription": "Hủy: HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "description": "Hủy: HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "attribute": [
+			{
+			  "id": "535241",
+			  "code": "action",
+			  "title": "Thao tác",
+			  "dataType": "String",
+			  "value": "Hủy"
+			},
+			{
+			  "id": "535242",
+			  "code": "content",
+			  "title": "Nội dung",
+			  "dataType": "String",
+			  "value": "HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)"
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	},
+	{
+	  "id": "5354",
+	  "name": "Kênh đăng ký",
+	  "groupType": "Qualification",
+	  "description": "Kênh đăng ký",
+	  "specifications": [
+		{
+		  "id": "53541",
+		  "name": "Kênh đăng ký",
+		  "shortDescription": "Với gói trả trước thì đăng ký tại kênh SMS, SMCS, VNPT Shop, App Employee, App MyVNPT, VNPT Pay, App Digishop, CCOS, VNPT Shop, Web Digishop, CCBS",
+		  "description": "Với gói trả trước thì đăng ký tại kênh SMS, SMCS, VNPT Shop, App Employee, App MyVNPT, VNPT Pay, App Digishop, CCOS, VNPT Shop, Web Digishop, CCBS",
+		  "attribute": [
+			{
+			  "id": "535411",
+			  "code": "sups_type",
+			  "title": "Loại gói",
+			  "dataType": "String",
+			  "value": "Trả trước"
+			},
+			{
+			  "id": "535412",
+			  "code": "channel",
+			  "title": "Kênh đăng ký",
+			  "dataType": "String",
+			  "value": ["SMS", "SMCS", "VNPT Shop", "App Employee", "App MyVNPT", "VNPT Pay", "App Digishop", "CCOS, VNPT Shop", "Web Digishop", "CCBS"]
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		},
+		{
+		  "id": "53541",
+		  "name": "Kênh đăng ký",
+		  "shortDescription": "Với gói trả sau thì đăng ký tại kênh CCBS, SMS, CCOS, MyVNPT, App Employee, App Digishop, Web Digishop, VNPT Pay",
+		  "description": "Với gói trả sau thì đăng ký tại kênh CCBS, SMS, CCOS, MyVNPT, App Employee, App Digishop, Web Digishop, VNPT Pay",
+		  "attribute": [
+			{
+			  "id": "535411",
+			  "code": "sups_type",
+			  "title": "Loại gói",
+			  "dataType": "String",
+			  "value": "Trả sau"
+			},
+			{
+			  "id": "535412",
+			  "code": "channel",
+			  "title": "Kênh đăng ký",
+			  "dataType": "String",
+			  "value": ["CCBS", "SMS", "CCOS", "MyVNPT", "App Employee", "App Digishop", "Web Digishop", "VNPT Pay"]
+			}
+		  ],
+		  "@type": "ProposalSpecification",
+		  "@baseType": "ProposalSpecification"
+		}
+	  ],
+	  "@type": "ProposalGroup",
+	  "@baseType": "ProposalGroup"
+	}
+  ],
+  "@type": "Proposal",
+  "@baseType": "Proposal"
+}

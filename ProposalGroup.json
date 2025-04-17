@@ -1,0 +1,233 @@
+[
+  {
+    "id": "5350",
+    "name": "Giá",
+    "description": "Mô tả các chu kỳ và giá theo từng chu kỳ",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53501",
+        "name": "Chu kỳ đăng ký",
+        "description": "Chu kỳ đăng ký",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53502",
+        "name": "Chu kỳ gia hạn",
+        "description": "Chu kỳ gia hạn",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53503",
+        "name": "Giá gói theo chu kỳ",
+        "description": "Giá gói theo chu kỳ",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5351",
+    "name": "Ưu đãi",
+    "description": "Ưu đãi",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53511",
+        "name": "Phút nội mạng VNP",
+        "description": "Phút nội mạng VNP",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53512",
+        "name": "Phút liên mạng trong nước",
+        "description": "Phút liên mạng trong nước",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53513",
+        "name": "Data",
+        "description": "Data",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53514",
+        "name": "Data IP",
+        "description": "Data IP",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53515",
+        "name": "Dịch vụ Add-on",
+        "description": "Dịch vụ Add-on",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53516",
+        "name": "Dịch vụ khác",
+        "description": "Dịch vụ khác",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5352",
+    "name": "Tính năng chia sẻ Data",
+    "description": "Tính năng chia sẻ Data",
+    "state": "",
+    "proposalSpecification": [
+      {
+        "id": "53521",
+        "name": "Mô tả tính năng",
+        "description": "Mô tả tính năng",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53522",
+        "name": "Số lượng TB thành viên",
+        "description": "Số lượng TB thành viên",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53523",
+        "name": "Hạn mức chia sẻ",
+        "description": "Hạn mức chia sẻ",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53524",
+        "name": "Cú pháp",
+        "description": "Cú pháp",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5353",
+    "name": "Đối tượng đăng ký",
+    "description": "Đối tượng đăng ký",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53531",
+        "name": "Thuê bao trả trước PTM",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53532",
+        "name": "Thuê bao chuyển mạng giữ số MNP",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53533",
+        "name": "Thuê bao trả trước hiện hữu",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53534",
+        "name": "Thuê bao trả sau hiện hữu chuyển sang trả trước",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53535",
+        "name": "Thuê bao trả sau PTM",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53536",
+        "name": "Thuê bao trả sau hiện hữu",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      },
+      {
+        "id": "53537",
+        "name": "Thuê bao trả trước hiện hữu chuyển sang trả sau",
+        "description": "",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5354",
+    "name": "Kênh đăng ký",
+    "description": "Kênh đăng ký",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53541",
+        "name": "Kênh đăng ký",
+        "description": "Kênh đăng ký",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5355",
+    "name": "Cú pháp với gói main",
+    "description": "Cú pháp với gói main",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53524",
+        "name": "Cú pháp",
+        "description": "Cú pháp",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  },
+  {
+    "id": "5356",
+    "name": "Cú pháp với gói Add-on",
+    "description": "Cú pháp với gói Add-on",
+    "state": "active",
+    "proposalSpecification": [
+      {
+        "id": "53524",
+        "name": "Cú pháp",
+        "description": "Cú pháp",
+        "@type": "ProposalSpecificationRef",
+        "@referredType": "ProposalSpecification"
+      }
+    ],
+    "@type": "ProposalGroup",
+    "@baseType": "ProposalGroup"
+  }
+]

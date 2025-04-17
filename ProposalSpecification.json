@@ -1,0 +1,813 @@
+[
+  {
+    "id": "53501",
+    "name": "Chu kỳ đăng ký",
+    "shortDescription": "{1}/{2}/{3}/{4}",
+    "description": "{1}/{2}/{3}/{4}",
+    "attribute": [
+      {
+        "id": "535011",
+        "code": "registration_cycle_1",
+        "title": "Chu kỳ đăng ký 1",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535012",
+        "code": "registration_cycle_2",
+        "title": "Chu kỳ đăng ký 2",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535013",
+        "code": "registration_cycle_3",
+        "title": "Chu kỳ đăng ký 3",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535014",
+        "code": "registration_cycle_4",
+        "title": "Chu kỳ đăng ký 4",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53502",
+    "name": "Chu kỳ gia hạn",
+    "shortDescription": "{1}/{2}/{3}/{4}",
+    "description": "{1}/{2}/{3}/{4}",
+    "attribute": [
+      {
+        "id": "535021",
+        "code": "renew_cycle_1",
+        "title": "Chu kỳ gia hạn 1",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535022",
+        "code": "renew_cycle_2",
+        "title": "Chu kỳ gia hạn 2",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535023",
+        "code": "renew_cycle_3",
+        "title": "Chu kỳ gia hạn 3",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535024",
+        "code": "renew_cycle_4",
+        "title": "Chu kỳ gia hạn 4",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53503",
+    "name": "Giá gói theo chu kỳ",
+    "shortDescription": "{1}/{2}/{3}/{4}",
+    "description": "{1}/{2}/{3}/{4}",
+    "attribute": [
+      {
+        "id": "535031",
+        "code": "cycle_price_1",
+        "title": "Giá chu kỳ 1",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535032",
+        "code": "cycle_price_2",
+        "title": "Giá chu kỳ 2",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535033",
+        "code": "cycle_price_3",
+        "title": "Giá chu kỳ 3",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535034",
+        "code": "cycle_price_4",
+        "title": "Giá chu kỳ 4",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53511",
+    "name": "Phút nội mạng VNP",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535111",
+        "code": "volume",
+        "title": "Số phút",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53512",
+    "name": "Phút liên mạng trong nước",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535121",
+        "code": "volume",
+        "title": "Số phút",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53513",
+    "name": "Data",
+    "shortDescription": "{1}{2}/{3}",
+    "description": "{1}{2}/{3}",
+    "attribute": [
+      {
+        "id": "535131",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535132",
+        "code": "unit",
+        "title": "Đơn vị data",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "MB", "value": "MB" },
+            { "label": "GB", "value": "GB" },
+            { "label": "TB", "value": "TB" }
+          ]
+        }
+      },
+      {
+        "id": "535133",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53514",
+    "name": "Data IP",
+    "shortDescription": "Free data truy cập ứng dụng {1}",
+    "description": "Free data truy cập ứng dụng {1}",
+    "attribute": [
+      {
+        "id": "535141",
+        "code": "ip",
+        "title": "Ứng dụng",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Zalo", "value": "Zalo" },
+            { "label": "Tiktok", "value": "Tiktok" },
+            { "label": "MyTV", "value": "MyTV" },
+            { "label": "Facebook", "value": "Facebook" },
+            { "label": "Nhaccuatui", "value": "Nhaccuatui" },
+            { "label": "VNEdu", "value": "VNEdu" },
+            { "label": "Youtube", "value": "Youtube" },
+            { "label": "VieON", "value": "VieON" },
+            { "label": "Whatsapp", "value": "Whatsapp" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53515",
+    "name": "Dịch vụ Add-on",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535151",
+        "code": "service",
+        "title": "Dịch vụ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "MyTV (VTVCab + SPOTV)", "value": "MyTV (VTVCab + SPOTV)" }
+          ]
+        }
+      }
+	],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53516",
+    "name": "Dịch vụ khác",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535161",
+        "code": "other_service",
+        "title": "Dịch vụ khác",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Volte", "value": "Volte" },
+            { "label": "Volwifi", "value": "Volwifi" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53521",
+    "name": "Mô tả tính năng",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535211",
+        "code": "function_description",
+        "title": "Mô tả tính năng",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53522",
+    "name": "Số lượng TB thành viên",
+    "shortDescription": "{1}",
+    "description": "{1}",
+    "attribute": [
+      {
+        "id": "535221",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53523",
+    "name": "Hạn mức chia sẻ",
+    "shortDescription": "{1}{2}/{3}",
+    "description": "{1}{2}/{3}",
+    "attribute": [
+      {
+        "id": "535231",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535232",
+        "code": "unit",
+        "title": "Đơn vị data",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "MB", "value": "MB" },
+            { "label": "GB", "value": "GB" },
+            { "label": "TB", "value": "TB" }
+          ]
+        }
+      },
+      {
+        "id": "535233",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53524",
+    "name": "Cú pháp",
+    "shortDescription": "{1}: {2}",
+    "description": "{1}: {2}",
+    "attribute": [
+      {
+        "id": "535241",
+        "code": "action",
+        "title": "Thao tác",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Đăng ký thêm thành viên", "value": "Add Member" },
+            { "label": "Thay đổi thành viên", "value": "Change Member" },
+            { "label": "Hủy thành viên", "value": "Cancel Member" },
+            { "label": "Tra cứu thành viên", "value": "Lookup Member" },
+            { "label": "Thành viên yêu cầu hủy nhóm chia sẻ", "value": "Cancel Share Group" },
+            { "label": "Đăng ký", "value": "Subscribe" },
+            { "label": "Hủy", "value": "Cancel" },
+            { "label": "Tra cứu", "value": "Lookup" }
+          ]
+        }
+      },
+      {
+        "id": "535242",
+        "code": "content",
+        "title": "Nội dung",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53531",
+    "name": "Thuê bao trả trước PTM",
+    "shortDescription": "Thuê bao phát triển mới trong vòng {1} {2}",
+    "description": "",
+    "attribute": [
+      {
+        "id": "535311",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535312",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53532",
+    "name": "Thuê bao chuyển mạng giữ số MNP",
+    "shortDescription": "Thuê bao chuyển mạng giữ số MNP trong vòng {1} {2}",
+    "description": "",
+    "attribute": [
+      {
+        "id": "535321",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535322",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53533",
+    "name": "Thuê bao trả trước hiện hữu",
+    "shortDescription": "Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liên kề đều {3} {4} {5}.",
+    "description": "\"Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liên kề đều {3} {4} {5}. Ghi chú: Xét TKC 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.\"",
+    "attribute": [
+      {
+        "id": "535331",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535332",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      },
+      {
+        "id": "535333",
+        "code": "operator",
+        "title": "Toán tử",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "<=", "value": "<=" },
+            { "label": "<", "value": "<" },
+            { "label": ">=", "value": ">=" },
+            { "label": "=", "value": "=" }
+          ]
+        }
+      },
+      {
+        "id": "535334",
+        "code": "amount",
+        "title": "Số tiền",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535335",
+        "code": "currency_unit",
+        "title": "Đơn vị tiền tệ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "VND", "value": "VND" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53534",
+    "name": "Thuê bao trả sau hiện hữu chuyển sang trả trước",
+    "shortDescription": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}",
+    "description": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}",
+    "attribute": [
+      {
+        "id": "535341",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535342",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      },
+      {
+        "id": "535343",
+        "code": "operator",
+        "title": "Toán tử",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "<=", "value": "<=" },
+            { "label": "<", "value": "<" },
+            { "label": ">=", "value": ">=" },
+            { "label": "=", "value": "=" }
+          ]
+        }
+      },
+      {
+        "id": "535344",
+        "code": "amount",
+        "title": "Số tiền",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535345",
+        "code": "currency_unit",
+        "title": "Đơn vị tiền tệ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "VND", "value": "VND" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53535",
+    "name": "Thuê bao trả sau PTM",
+    "shortDescription": "Thuê bao trả sau PTM gồm {1}",
+    "description": "",
+    "attribute": [
+      {
+        "id": "535351",
+        "code": "condition",
+        "title": "Điều kiện",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Thuê bao trả sau hòa mạng mới", "value": "Thuê bao trả sau hòa mạng mới" },
+            { "label": "Thuê bao MNP PI trả sau trong tháng hòa mạng.", "value": "Thuê bao MNP PI trả sau trong tháng hòa mạng." },
+            { "label": "Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng.", "value": "Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng." }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53537",
+    "name": "Thuê bao trả trước hiện hữu chuyển sang trả sau",
+    "shortDescription": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}.",
+    "description": "\"Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}. Ghi chú: Xét doanh thu 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.\"",
+    "attribute": [
+      {
+        "id": "535371",
+        "code": "quantity",
+        "title": "Số lượng",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535372",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Ngày", "value": "Day" },
+            { "label": "Tháng", "value": "Month" },
+            { "label": "Năm", "value": "Year" }
+          ]
+        }
+      },
+      {
+        "id": "535373",
+        "code": "operator",
+        "title": "Toán tử",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "<=", "value": "<=" },
+            { "label": "<", "value": "<" },
+            { "label": ">=", "value": ">=" },
+            { "label": "=", "value": "=" }
+          ]
+        }
+      },
+      {
+        "id": "535374",
+        "code": "amount",
+        "title": "Số tiền",
+        "dataType": "number",
+        "value": "",
+        "layout": {
+          "ctlType": "TEXTBOX"
+        }
+      },
+      {
+        "id": "535375",
+        "code": "currency_unit",
+        "title": "Đơn vị tiền tệ",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "VND", "value": "VND" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  },
+  {
+    "id": "53541",
+    "name": "Kênh đăng ký",
+    "shortDescription": "{1}: {2}",
+    "description": "Với gói {1} thì đăng ký tại kênh {2}",
+    "attribute": [
+      {
+        "id": "535411",
+        "code": "sups_type",
+        "title": "Loại gói",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "Trả trước", "value": "Prepaid" },
+            { "label": "Trả sau", "value": "Postpaid" }
+          ]
+        }
+      },
+      {
+        "id": "535412",
+        "code": "channel",
+        "title": "Kênh đăng ký",
+        "dataType": "string",
+        "value": "",
+        "layout": {
+          "ctlType": "SELECT-LIST",
+          "extInfo": [
+            { "label": "SMS", "value": "SMS" },
+            { "label": "SMCS", "value": "SMCS" },
+            { "label": "VNPT Shop", "value": "VNPT Shop" },
+            { "label": "App Employee", "value": "App Employee" },
+            { "label": "App MyVNPT", "value": "App MyVNPT" },
+            { "label": "VNPT Pay", "value": "VNPT Pay" },
+            { "label": "App Digishop", "value": "App Digishop" },
+            { "label": "CCOS", "value": "CCOS" },
+            { "label": "Digishop", "value": "Web Digishop" },
+            { "label": "CCBS", "value": "CCBS" }
+          ]
+        }
+      }
+    ],
+    "@type": "ProposalSpecification",
+    "@baseType": "ProposalSpecification"
+  }
+]
