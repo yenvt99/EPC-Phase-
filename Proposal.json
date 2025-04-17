@@ -12,36 +12,36 @@
         {
           "id": "53501",
           "name": "Chu kỳ đăng ký",
-          "shortDescription": "1T/ 3T/ 6T/ 12T",
-          "description": "1T/ 3T/ 6T/ 12T",
+          "shortDescription": "1/ 3/ 6/ 12",
+          "description": "1/ 3/ 6/ 12",
           "attribute": [
             {
               "id": "535011",
               "code": "registration_cycle_1",
               "title": "Chu kỳ đăng ký 1",
-              "dataType": "String",
-              "value": "1T"
+              "dataType": "number",
+              "value": "1"
             },
             {
               "id": "535012",
               "code": "registration_cycle_2",
               "title": "Chu kỳ đăng ký 2",
-              "dataType": "String",
-              "value": "3T"
+              "dataType": "number",
+              "value": "3"
             },
             {
               "id": "535013",
               "code": "registration_cycle_3",
               "title": "Chu kỳ đăng ký 3",
-              "dataType": "String",
-              "value": "6T"
+              "dataType": "number",
+              "value": "6"
             },
             {
               "id": "535014",
               "code": "registration_cycle_4",
               "title": "Chu kỳ đăng ký 4",
-              "dataType": "String",
-              "value": "12T"
+              "dataType": "number",
+              "value": "12"
             }
           ],
           "@type": "ProposalSpecification",
@@ -50,36 +50,36 @@
         {
           "id": "53502",
           "name": "Chu kỳ gia hạn",
-          "shortDescription": "1T/ 3T/ 7T/ 14T",
-          "description": "1T/ 3T/ 7T/ 14T",
+          "shortDescription": "1/ 3/ 7/ 14",
+          "description": "1/ 3/ 7/ 14",
           "attribute": [
             {
               "id": "535021",
               "code": "renew_cycle_1",
               "title": "Chu kỳ gia hạn 1",
-              "dataType": "String",
-              "value": "1T"
+              "dataType": "number",
+              "value": "1"
             },
             {
               "id": "535022",
               "code": "renew_cycle_2",
               "title": "Chu kỳ gia hạn 2",
-              "dataType": "String",
-              "value": "3T"
+              "dataType": "number",
+              "value": "3"
             },
             {
               "id": "535023",
               "code": "renew_cycle_3",
               "title": "Chu kỳ gia hạn 3",
-              "dataType": "String",
-              "value": "7T"
+              "dataType": "number",
+              "value": "7"
             },
             {
               "id": "535024",
               "code": "renew_cycle_4",
               "title": "Chu kỳ gia hạn 4",
-              "dataType": "String",
-              "value": "14T"
+              "dataType": "number",
+              "value": "14"
             }
           ],
           "@type": "ProposalSpecification",
