@@ -9,7 +9,7 @@
         "id": "535011",
         "code": "registration_cycle_1",
         "title": "Chu kỳ đăng ký 1",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -19,7 +19,7 @@
         "id": "535012",
         "code": "registration_cycle_2",
         "title": "Chu kỳ đăng ký 2",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -29,7 +29,7 @@
         "id": "535013",
         "code": "registration_cycle_3",
         "title": "Chu kỳ đăng ký 3",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -39,7 +39,7 @@
         "id": "535014",
         "code": "registration_cycle_4",
         "title": "Chu kỳ đăng ký 4",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -59,7 +59,7 @@
         "id": "535021",
         "code": "renew_cycle_1",
         "title": "Chu kỳ gia hạn 1",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -69,7 +69,7 @@
         "id": "535022",
         "code": "renew_cycle_2",
         "title": "Chu kỳ gia hạn 2",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -79,7 +79,7 @@
         "id": "535023",
         "code": "renew_cycle_3",
         "title": "Chu kỳ gia hạn 3",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -89,7 +89,7 @@
         "id": "535024",
         "code": "renew_cycle_4",
         "title": "Chu kỳ gia hạn 4",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -109,7 +109,7 @@
         "id": "535031",
         "code": "cycle_price_1",
         "title": "Giá chu kỳ 1",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -119,7 +119,7 @@
         "id": "535032",
         "code": "cycle_price_2",
         "title": "Giá chu kỳ 2",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -129,7 +129,7 @@
         "id": "535033",
         "code": "cycle_price_3",
         "title": "Giá chu kỳ 3",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
@@ -139,7 +139,7 @@
         "id": "535034",
         "code": "cycle_price_4",
         "title": "Giá chu kỳ 4",
-        "dataType": "string",
+        "dataType": "number",
         "value": "",
         "layout": {
           "ctlType": "TEXTBOX"
