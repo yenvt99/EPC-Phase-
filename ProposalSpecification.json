@@ -2,49 +2,25 @@
   {
     "id": "53501",
     "name": "Chu kỳ đăng ký",
-    "shortDescription": "{1}/{2}/{3}/{4}",
-    "description": "{1}/{2}/{3}/{4}",
+    "shortDescription": "{1}",
+    "description": "{1}",
     "attribute": [
       {
         "id": "535011",
-        "code": "registration_cycle_1",
-        "title": "Chu kỳ đăng ký 1",
+        "code": "registration_cycle",
+        "title": "Chu kỳ đăng ký",
         "dataType": "number",
         "value": "",
         "layout": {
-          "ctlType": "TEXTBOX"
+          "ctlType": "SELECT-LIST",
+	  "extInfo": [
+            { "label": "1", "value": "1" },
+            { "label": "3", "value": "3" },
+            { "label": "6", "value": "6" },
+	    { "label": "12", "value": "12" }
+          ]
         }
       },
-      {
-        "id": "535012",
-        "code": "registration_cycle_2",
-        "title": "Chu kỳ đăng ký 2",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535013",
-        "code": "registration_cycle_3",
-        "title": "Chu kỳ đăng ký 3",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535014",
-        "code": "registration_cycle_4",
-        "title": "Chu kỳ đăng ký 4",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      }
     ],
     "@type": "ProposalSpecification",
     "@baseType": "ProposalSpecification"
@@ -52,47 +28,23 @@
   {
     "id": "53502",
     "name": "Chu kỳ gia hạn",
-    "shortDescription": "{1}/{2}/{3}/{4}",
-    "description": "{1}/{2}/{3}/{4}",
+    "shortDescription": "{1}",
+    "description": "{1}",
     "attribute": [
       {
         "id": "535021",
-        "code": "renew_cycle_1",
-        "title": "Chu kỳ gia hạn 1",
+        "code": "renew_cycle",
+        "title": "Chu kỳ gia hạn",
         "dataType": "number",
         "value": "",
         "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535022",
-        "code": "renew_cycle_2",
-        "title": "Chu kỳ gia hạn 2",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535023",
-        "code": "renew_cycle_3",
-        "title": "Chu kỳ gia hạn 3",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535024",
-        "code": "renew_cycle_4",
-        "title": "Chu kỳ gia hạn 4",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
+          "ctlType": "SELECT-LIST",
+	  "extInfo": [
+            { "label": "1", "value": "1" },
+            { "label": "3", "value": "3" },
+            { "label": "7", "value": "7" },
+	    { "label": "14", "value": "14" }
+          ]
         }
       }
     ],
@@ -102,43 +54,29 @@
   {
     "id": "53503",
     "name": "Giá gói theo chu kỳ",
-    "shortDescription": "{1}/{2}/{3}/{4}",
-    "description": "{1}/{2}/{3}/{4}",
+    "shortDescription": "{1}:{2}",
+    "description": "{1}:{2}",
     "attribute": [
       {
         "id": "535031",
-        "code": "cycle_price_1",
-        "title": "Giá chu kỳ 1",
-        "dataType": "number",
+        "code": "cycle",
+        "title": "Chu kỳ",
+        "dataType": "string",
         "value": "",
         "layout": {
-          "ctlType": "TEXTBOX"
+          "ctlType": "SELECT-LIST",
+	  "extInfo": [
+            { "label": "1T", "value": "1T" },
+            { "label": "3T", "value": "3T" },
+            { "label": "6T", "value": "6T" },
+	    { "label": "12T", "value": "12T" }
+          ]
         }
       },
       {
         "id": "535032",
-        "code": "cycle_price_2",
-        "title": "Giá chu kỳ 2",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535033",
-        "code": "cycle_price_3",
-        "title": "Giá chu kỳ 3",
-        "dataType": "number",
-        "value": "",
-        "layout": {
-          "ctlType": "TEXTBOX"
-        }
-      },
-      {
-        "id": "535034",
-        "code": "cycle_price_4",
-        "title": "Giá chu kỳ 4",
+        "code": "price",
+        "title": "Giá",
         "dataType": "number",
         "value": "",
         "layout": {
