@@ -9,15 +9,15 @@
         "id": "535011",
         "code": "registration_cycle",
         "title": "Chu kỳ đăng ký",
-        "dataType": "number",
+        "dataType": "string",
         "value": "",
         "layout": {
           "ctlType": "SELECT-LIST",
 	  "extInfo": [
-            { "label": "1", "value": "1" },
-            { "label": "3", "value": "3" },
-            { "label": "6", "value": "6" },
-	    { "label": "12", "value": "12" }
+            { "label": "1T", "value": "1T" },
+            { "label": "3T", "value": "3T" },
+            { "label": "6T", "value": "6T" },
+	    { "label": "12T", "value": "12T" }
           ]
         }
       },
@@ -35,15 +35,15 @@
         "id": "535021",
         "code": "renew_cycle",
         "title": "Chu kỳ gia hạn",
-        "dataType": "number",
+        "dataType": "string",
         "value": "",
         "layout": {
           "ctlType": "SELECT-LIST",
 	  "extInfo": [
-            { "label": "1", "value": "1" },
-            { "label": "3", "value": "3" },
-            { "label": "7", "value": "7" },
-	    { "label": "14", "value": "14" }
+            { "label": "1T", "value": "1T" },
+            { "label": "3T", "value": "3T" },
+            { "label": "7T", "value": "7T" },
+	    { "label": "14T", "value": "14T" }
           ]
         }
       }
