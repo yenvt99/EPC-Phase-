@@ -18,9 +18,60 @@
             {
               "id": "535011",
               "code": "registration_cycle",
-              "title": "Chu kỳ đăng ký 1",
-              "dataType": "number",
-              "value": "1"
+              "title": "Chu kỳ đăng ký",
+              "dataType": "string",
+              "value": "1T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53501",
+          "name": "Chu kỳ đăng ký",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535011",
+              "code": "registration_cycle",
+              "title": "Chu kỳ đăng ký",
+              "dataType": "string",
+              "value": "3T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53501",
+          "name": "Chu kỳ đăng ký",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535011",
+              "code": "registration_cycle",
+              "title": "Chu kỳ đăng ký",
+              "dataType": "string",
+              "value": "6T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53501",
+          "name": "Chu kỳ đăng ký",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535011",
+              "code": "registration_cycle",
+              "title": "Chu kỳ đăng ký",
+              "dataType": "string",
+              "value": "12T"
             }
           ],
           "@type": "ProposalSpecification",
@@ -37,7 +88,58 @@
               "code": "renew_cycle",
               "title": "Chu kỳ gia hạn",
               "dataType": "number",
-              "value": "1"
+              "value": "1T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53502",
+          "name": "Chu kỳ gia hạn",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535021",
+              "code": "renew_cycle",
+              "title": "Chu kỳ gia hạn",
+              "dataType": "number",
+              "value": "3T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53502",
+          "name": "Chu kỳ gia hạn",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535021",
+              "code": "renew_cycle",
+              "title": "Chu kỳ gia hạn",
+              "dataType": "number",
+              "value": "7T"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53502",
+          "name": "Chu kỳ gia hạn",
+          "shortDescription": "{1}",
+          "description": "{1}",
+          "attribute": [
+            {
+              "id": "535021",
+              "code": "renew_cycle",
+              "title": "Chu kỳ gia hạn",
+              "dataType": "number",
+              "value": "14T"
             }
           ],
           "@type": "ProposalSpecification",
@@ -46,36 +148,22 @@
         {
           "id": "53503",
           "name": "Giá gói theo chu kỳ",
-          "shortDescription": "199000/ 597000/ 1194000/ 2388000",
-          "description": "199000/ 597000/ 1194000/ 2388000",
+          "shortDescription": "{1}:{2}",
+          "description": "{1}:{2}",
           "attribute": [
             {
               "id": "535031",
-              "code": "cycle_price_1",
-              "title": "Giá chu kỳ 1",
-              "dataType": "number",
-              "value": "199000"
+              "code": "cycle",
+              "title": "Chu kỳ",
+              "dataType": "string",
+              "value": "1T"
             },
             {
               "id": "535032",
-              "code": "cycle_price_2",
-              "title": "Giá chu kỳ 2",
+              "code": "price",
+              "title": "Giá",
               "dataType": "number",
-              "value": "597000"
-            },
-            {
-              "id": "535033",
-              "code": "cycle_price_3",
-              "title": "Giá chu kỳ 3",
-              "dataType": "number",
-              "value": "1194000"
-            },
-            {
-              "id": "535034",
-              "code": "cycle_price_4",
-              "title": "Giá chu kỳ 4",
-              "dataType": "number",
-              "value": "2388000"
+              "value": "199000"
             }
           ],
           "@type": "ProposalSpecification",
