@@ -168,6 +168,78 @@
           ],
           "@type": "ProposalSpecification",
           "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53503",
+          "name": "Giá gói theo chu kỳ",
+          "shortDescription": "{1}:{2}",
+          "description": "{1}:{2}",
+          "attribute": [
+            {
+              "id": "535031",
+              "code": "cycle",
+              "title": "Chu kỳ",
+              "dataType": "string",
+              "value": "3T"
+            },
+            {
+              "id": "535032",
+              "code": "price",
+              "title": "Giá",
+              "dataType": "number",
+              "value": "597000"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53503",
+          "name": "Giá gói theo chu kỳ",
+          "shortDescription": "{1}:{2}",
+          "description": "{1}:{2}",
+          "attribute": [
+            {
+              "id": "535031",
+              "code": "cycle",
+              "title": "Chu kỳ",
+              "dataType": "string",
+              "value": "6T"
+            },
+            {
+              "id": "535032",
+              "code": "price",
+              "title": "Giá",
+              "dataType": "number",
+              "value": "1194000"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
+        },
+	{
+          "id": "53503",
+          "name": "Giá gói theo chu kỳ",
+          "shortDescription": "{1}:{2}",
+          "description": "{1}:{2}",
+          "attribute": [
+            {
+              "id": "535031",
+              "code": "cycle",
+              "title": "Chu kỳ",
+              "dataType": "string",
+              "value": "1T"
+            },
+            {
+              "id": "535032",
+              "code": "price",
+              "title": "Giá",
+              "dataType": "number",
+              "value": "2388000"
+            }
+          ],
+          "@type": "ProposalSpecification",
+          "@baseType": "ProposalSpecification"
         }
       ],
       "@type": "ProposalGroup",
