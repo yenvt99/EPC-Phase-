@@ -152,8 +152,8 @@
 		{
 		  "id": "53511",
 		  "name": "Phút nội mạng VNP",
-		  "shortDescription": "2000",
-		  "description": "2000",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535111",
@@ -169,8 +169,8 @@
 		{
 		  "id": "53512",
 		  "name": "Phút liên mạng trong nước",
-		  "shortDescription": "250",
-		  "description": "250",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535121",
@@ -186,8 +186,8 @@
 		{
 		  "id": "53513",
 		  "name": "Data",
-		  "shortDescription": "8GB/ Ngày",
-		  "description": "8GB/ Ngày",
+		  "shortDescription": "{1}{2}/{3}",
+		  "description": "{1}{2}/{3}",
 		  "attribute": [
 			{
 			  "id": "535131",
@@ -217,8 +217,8 @@
 		{
 		  "id": "53514",
 		  "name": "Data IP",
-		  "shortDescription": "Free data truy cập ứng dụng Zalo, Facebook, Tiktok, Youtube, Whatsapp",
-		  "description": "Free data truy cập ứng dụng Zalo, Facebook, Tiktok, Youtube, Whatsapp",
+		  "shortDescription": "Free data truy cập ứng dụng {1}",
+		  "description": "Free data truy cập ứng dụng {1}",
 		  "attribute": [
 			{
 			  "id": "535141",
@@ -234,8 +234,8 @@
 		{
 		  "id": "53515",
 		  "name": "Dịch vụ Add-on",
-		  "shortDescription": "MyTV (VTVCab + SPOTV)",
-		  "description": "MyTV (VTVCab + SPOTV)",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535151",
@@ -251,8 +251,8 @@
 		{
 		  "id": "53516",
 		  "name": "Dịch vụ khác",
-		  "shortDescription": "Volte, Volwifi",
-		  "description": "Volte, Volwifi",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535161",
@@ -278,8 +278,8 @@
 		{
 		  "id": "53521",
 		  "name": "Mô tả tính năng",
-		  "shortDescription": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên theo từng gói; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm 15K/1TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB",
-		  "description": "Cho phép thuê bao đăng ký gói HVC (TB chủ) add thêm thành viên:\n - Số lượng thành viên theo từng gói; thành viên add thêm là TB phát triển số mới.\n - Mỗi thành viên được add thêm TB chủ sẽ thanh toán thêm 2 hoặc 3 thành viên (số PTM); thu thêm 15K/1TB đồng.\n - TB chủ và TB thành viên được gọi cho nhau miễn phí (gồm cả chủ nhóm và thành viên gọi cho nhau; thành viên gọi cho nhau).\n - TB chủ được chia sẻ data cho TB thành viên XX GB/1TB",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535211",
@@ -295,8 +295,8 @@
 		{
 		  "id": "53522",
 		  "name": "Số lượng TB thành viên",
-		  "shortDescription": "2",
-		  "description": "2",
+		  "shortDescription": "{1}",
+		  "description": "{1}",
 		  "attribute": [
 			{
 			  "id": "535221",
@@ -312,8 +312,8 @@
 		{
 		  "id": "53523",
 		  "name": "Hạn mức chia sẻ",
-		  "shortDescription": "1GB/ Ngày",
-		  "description": "1GB/ Ngày",
+		  "shortDescription": "{1}{2}/{3}",
+		  "description": "{1}{2}/{3}",
 		  "attribute": [
 			{
 			  "id": "535231",
@@ -343,8 +343,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Đăng ký thêm thành viên: TTV_VIPxx_Số thuê bao thành viên",
-		  "description": "Đăng ký thêm thành viên: TTV_VIPxx_Số thuê bao thành viên",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -367,8 +367,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Thay đổi thành viên: TDTV_VIPxx_Số TV cũ_ Số TV mới",
-		  "description": "Thay đổi thành viên: TDTV_VIPxx_Số TV cũ_ Số TV mới",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -391,8 +391,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Hủy thành viên: XTV_VIPxx_Số thuê bao thành viên",
-		  "description": "Hủy thành viên: XTV_VIPxx_Số thuê bao thành viên",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -415,8 +415,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Tra cứu thành viên: TRACUUTV_VIPxx",
-		  "description": "Tra cứu thành viên: TRACUUTV_VIPxx",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -439,8 +439,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Thành viên yêu cầu hủy nhóm chia sẻ: XTV_VIPxx",
-		  "description": "Thành viên yêu cầu hủy nhóm chia sẻ: XTV_VIPxx",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -473,8 +473,8 @@
 		{
 		  "id": "53531",
 		  "name": "Thuê bao trả trước PTM",
-		  "shortDescription": "Thuê bao phát triển mới trong vòng 30 ngày·",
-		  "description": "Thuê bao phát triển mới trong vòng 30 ngày·",
+		  "shortDescription": "Thuê bao phát triển mới trong vòng {1} {2}",
+		  "description": "Thuê bao phát triển mới trong vòng {1} {2}",
 		  "attribute": [
 			{
 			  "id": "535311",
@@ -497,8 +497,8 @@
 		{
 		  "id": "53532",
 		  "name": "Thuê bao chuyển mạng giữ số MNP",
-		  "shortDescription": "Thuê bao chuyển mạng giữ số MNP trong vòng 30 ngày",
-		  "description": "Thuê bao chuyển mạng giữ số MNP trong vòng 30 ngày",
+		  "shortDescription": "Thuê bao chuyển mạng giữ số MNP trong vòng {1} {2}",
+		  "description": "Thuê bao chuyển mạng giữ số MNP trong vòng {1} {2}",
 		  "attribute": [
 			{
 			  "id": "535321",
@@ -521,8 +521,8 @@
 		{
 		  "id": "53533",
 		  "name": "Thuê bao trả trước hiện hữu",
-		  "shortDescription": "Thuê bao trả trước hiện hữu (Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.",
-		  "description": "Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng liên kề đều <= 199000 đồng.\nGhi chú: Xét TKC 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
+		  "shortDescription": "Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liên kề đều {3} {4} {5}. ",
+		  "description": "Thuê bao trả trước hiện hữu {Đang không có gói KMCB, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liên kề đều {3} {4} {5}. Ghi chú: Xét TKC 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
 		  "attribute": [
 			{
 			  "id": "535331",
@@ -566,8 +566,8 @@
 		{
 		  "id": "53534",
 		  "name": "Thuê bao trả sau hiện hữu chuyển sang trả trước",
-		  "shortDescription": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân bình quân 3 tháng·liên kề đều <= 199000 đồng.",
-		  "description": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân bình quân 3 tháng·liên kề đều <= 199000 đồng",
+		  "shortDescription": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5} ",
+		  "description": "Thuê bao trả sau hiện hữu chuyển sang trả trước hoạt động có tiêu dùng TKC (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5} ",
 		  "attribute": [
 			{
 			  "id": "535341",
@@ -611,8 +611,8 @@
 		{
 		  "id": "53535",
 		  "name": "Thuê bao trả sau PTM",
-		  "shortDescription": "Thuê bao trả sau PTM gồm Thuê bao trả sau hòa mạng mới, Thuê bao MNP PI trả sau trong tháng hòa mạng, Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng.",
-		  "description": "Thuê bao trả sau PTM gồm Thuê bao trả sau hòa mạng mới, Thuê bao MNP PI trả sau trong tháng hòa mạng, Thuê bao di động trả trước kích hoạt mới và chuyển sang trả sau ngay trong tháng, tính đến ngày cuối cùng của tháng.",
+		  "shortDescription": "Thuê bao trả sau PTM gồm {1}",
+		  "description": "Thuê bao trả sau PTM gồm {1}",
 		  "attribute": [
 			{
 			  "id": "535351",
@@ -628,8 +628,8 @@
 		{
 		  "id": "53537",
 		  "name": "Thuê bao trả trước hiện hữu chuyển sang trả sau",
-		  "shortDescription": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.",
-		  "description": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân 3 tháng·liên kề đều <= 199000 đồng.\nGhi chú: Xét doanh thu 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
+		  "shortDescription": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}.",
+		  "description": "Thuê bao trả trước hiện hữu chuyển sang trả sau (đang không có gói ALO/ tích hợp, không bao gồm thuê bao EzCom) có tiêu dùng (không bao gồm CVQT và GTGT) bình quân {1} {2} liền kề đều {3} {4} {5}.Ghi chú: Xét doanh thu 3 tháng liền kề thì những TB Kích hoạt chưa đủ 3 tháng; hoặc không PSC 1 tháng thì coi TKC/DT = 0; Nếu khoá 2C 2 tháng liên tục đối với TS loại khỏi tập.",
 		  "attribute": [
 			{
 			  "id": "535371",
@@ -683,8 +683,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Đăng ký: DK <dấu cách><mã gói main> gửi 900 hoặc <mã gói main>",
-		  "description": "Đăng ký: DK <dấu cách><mã gói main> gửi 900 hoặc <mã gói main>",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -707,8 +707,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Hủy: HUY <mã gói main>",
-		  "description": "Hủy: HUY <mã gói main>",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -731,8 +731,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Tra cứu: Trả trước:  TRACUU <Tên gói> gửi 900, DATA gửi 888 Trả sau:  ALOTS gửi 900 , DATA gửi 888",
-		  "description": "Tra cứu: Trả trước:  TRACUU <Tên gói> gửi 900, DATA gửi 888\nTrả sau:  ALOTS gửi 900 , DATA gửi 888",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -765,8 +765,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Đăng ký: DK <dấu cách><mã gói add on> gửi 888 hoặc <mã gói add on> gửi 888 HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
-		  "description": "Đăng ký: DK <dấu cách><mã gói add on> gửi 888 hoặc <mã gói add on> gửi 888 HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -789,8 +789,8 @@
 		{
 		  "id": "53524",
 		  "name": "Cú pháp",
-		  "shortDescription": "Hủy: HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
-		  "description": "Hủy: HUY <mã gói add on> gửi đến số 888 (Hiệu lực tức thì)",
+		  "shortDescription": "{1}: {2}",
+		  "description": "{1}: {2}",
 		  "attribute": [
 			{
 			  "id": "535241",
@@ -823,8 +823,8 @@
 		{
 		  "id": "53541",
 		  "name": "Kênh đăng ký",
-		  "shortDescription": "Với gói trả trước thì đăng ký tại kênh SMS, SMCS, VNPT Shop, App Employee, App MyVNPT, VNPT Pay, App Digishop, CCOS, VNPT Shop, Web Digishop, CCBS",
-		  "description": "Với gói trả trước thì đăng ký tại kênh SMS, SMCS, VNPT Shop, App Employee, App MyVNPT, VNPT Pay, App Digishop, CCOS, VNPT Shop, Web Digishop, CCBS",
+		  "shortDescription": "{1}: {2}",
+		  "description": "Với gói {1} thì đăng ký tại kênh {2}",
 		  "attribute": [
 			{
 			  "id": "535411",
@@ -847,8 +847,8 @@
 		{
 		  "id": "53541",
 		  "name": "Kênh đăng ký",
-		  "shortDescription": "Với gói trả sau thì đăng ký tại kênh CCBS, SMS, CCOS, MyVNPT, App Employee, App Digishop, Web Digishop, VNPT Pay",
-		  "description": "Với gói trả sau thì đăng ký tại kênh CCBS, SMS, CCOS, MyVNPT, App Employee, App Digishop, Web Digishop, VNPT Pay",
+		  "shortDescription": "{1}: {2}",
+		  "description": "Với gói {1} thì đăng ký tại kênh {2}",
 		  "attribute": [
 			{
 			  "id": "535411",
