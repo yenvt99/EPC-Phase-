@@ -20,58 +20,7 @@
               "code": "registration_cycle",
               "title": "Chu kỳ đăng ký",
               "dataType": "string",
-              "value": "1T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53501",
-          "name": "Chu kỳ đăng ký",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535011",
-              "code": "registration_cycle",
-              "title": "Chu kỳ đăng ký",
-              "dataType": "string",
-              "value": "3T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53501",
-          "name": "Chu kỳ đăng ký",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535011",
-              "code": "registration_cycle",
-              "title": "Chu kỳ đăng ký",
-              "dataType": "string",
-              "value": "6T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53501",
-          "name": "Chu kỳ đăng ký",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535011",
-              "code": "registration_cycle",
-              "title": "Chu kỳ đăng ký",
-              "dataType": "string",
-              "value": "12T"
+              "value": ["1T", "3T", "6T", "12T"]
             }
           ],
           "@type": "ProposalSpecification",
@@ -88,58 +37,7 @@
               "code": "renew_cycle",
               "title": "Chu kỳ gia hạn",
               "dataType": "number",
-              "value": "1T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53502",
-          "name": "Chu kỳ gia hạn",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535021",
-              "code": "renew_cycle",
-              "title": "Chu kỳ gia hạn",
-              "dataType": "number",
-              "value": "3T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53502",
-          "name": "Chu kỳ gia hạn",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535021",
-              "code": "renew_cycle",
-              "title": "Chu kỳ gia hạn",
-              "dataType": "number",
-              "value": "7T"
-            }
-          ],
-          "@type": "ProposalSpecification",
-          "@baseType": "ProposalSpecification"
-        },
-	{
-          "id": "53502",
-          "name": "Chu kỳ gia hạn",
-          "shortDescription": "{1}",
-          "description": "{1}",
-          "attribute": [
-            {
-              "id": "535021",
-              "code": "renew_cycle",
-              "title": "Chu kỳ gia hạn",
-              "dataType": "number",
-              "value": "14T"
+              "value": ["1T", "3T", "7T", "14T"]
             }
           ],
           "@type": "ProposalSpecification",
