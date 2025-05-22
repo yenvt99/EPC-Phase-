@@ -3,7 +3,7 @@
 	xmlns:cai3="http://schemas.ericsson.com/cai3g1.2/"
 	xmlns:sapc="http://schemas.ericsson.com/ma/SAPC/">
 	<soapenv:Header>
-		<cai3:SessionId>${epc1}</cai3:SessionId>
+		<cai3:SessionId>${epc5}</cai3:SessionId>
 		<cai3:TransactionId/>
 		<cai3:SequenceId/>
 		<cai3:Context/>
