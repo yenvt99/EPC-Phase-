@@ -19,7 +19,6 @@
 					<sapc:pcSubscriberId>${epc2}</sapc:pcSubscriberId>         
 					
 					<sapc:pcNotificationData>
-						<sapc:pcNotificationSMS pcNotificationSMS="${epc6}">
 							<sapc:pcNotificationSMS>456</sapc:pcNotificationSMS>
 						</sapc:pcNotificationSMS>
 					</sapc:pcNotificationData>
