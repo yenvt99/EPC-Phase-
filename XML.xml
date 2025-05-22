@@ -15,10 +15,11 @@
 				<sapc:pcSubscriberId>123</sapc:pcSubscriberId>
 			</cai3:MOId>
 			<cai3:MOAttributes>
-				<sapc:CreateSAPCSubscription pcSubscriberId="${epc5}">
+				<sapc:CreateSAPCSubscription pcSubscriberId="${epc3}">
 					<sapc:pcSubscriberId>${epc2}</sapc:pcSubscriberId>         
 					
 					<sapc:pcNotificationData>
+						<sapc:pcNotificationSMS pcNotificationSMS="${epc6}">
 							<sapc:pcNotificationSMS>456</sapc:pcNotificationSMS>
 						</sapc:pcNotificationSMS>
 					</sapc:pcNotificationData>
