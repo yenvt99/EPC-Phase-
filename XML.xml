@@ -16,7 +16,7 @@
 			</cai3:MOId>
 			<cai3:MOAttributes>
 				<sapc:CreateSAPCSubscription pcSubscriberId="${epc5}">
-					<sapc:pcSubscriberId>${epc7}</sapc:pcSubscriberId>         
+					<sapc:pcSubscriberId>${epc5}</sapc:pcSubscriberId>         
 					
 					<sapc:pcNotificationData>
 						<sapc:pcNotificationSMS pcNotificationSMS="${epc5}">
